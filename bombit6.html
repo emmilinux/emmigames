@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <object type="application/x-shockwave-flash" data="bombit6.swf" width="100%" height="600" id="game_src" style="visibility: visible;">
+                               <param name="allowScriptAccess" value="never"></object>
+</body>
+
+<script>
+    var obj = document.querySelector("#game_src");
+
+    window.onresize = function() {
+        obj.height = window.innerHeight;
+    }
+</script>
+
+</html>
