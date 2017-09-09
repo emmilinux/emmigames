@@ -1,0 +1,23 @@
+* {margin: 0; padding: 0;
+}
+
+/*-------Fontes externas */
+@font-face {font-family: Lato; src: url('fontes/Lato-Light.ttf');}
+@font-face {font-family: Lato-Bold; src: url('fontes/Lato-Bold.ttf');}
+
+
+body{background-color: #ffffff; color: #333; font-family: Lato;}
+
+#toda {width: 85%; margin: 0 auto; background-color: #ffffff; padding: 10px; text-align: center;}
+#jogos{margin-top: 40px; margin-bottom: 40px;}
+
+header{font-size: 1.7em; font-family: Lato-Bold}
+
+figure{margin-bottom: 2.5em;}
+
+
+.imagemjogos{width: 60%; webkit-filter:grayscale(100%); box-shadow: 0.9px 0.5px 20px #333; opacity:0.9;}
+.imagemjogos:hover{opacity: 1;}
+
+#game_src{margin: 0 auto; padding: 0;}
+
