@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Emmi Jogos
+Comment=Se a vida é um jogo, então vamos jogar.
+Icon=/usr/share/pixmaps/emmijogos.png
+Exec=google-chrome --app=https://emmilinux.github.io/emmigames/
+NoDisplay=false
+Categories=GTK;menulibre-aplicativos;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Google-chrome
+StartupNotify=true
+Terminal=false
+

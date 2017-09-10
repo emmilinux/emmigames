@@ -1,0 +1,10 @@
+Package: emmijogos
+Version: 1.0
+Section: 
+Priority: optional
+Maintainer: Jefferson Rocha <lrcjefferson@gmail.com>
+Architecture: amd64
+Depends: xterm
+Installed-Size: 10
+Homepage: https://emmilinux.github.io/emmigames/
+Description: Jogue os seus jogos favoritos!
