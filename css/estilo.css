@@ -8,16 +8,19 @@
 
 body{background-color: #ffffff; color: #333; font-family: Lato;}
 
-#toda {width: 85%; margin: 0 auto; background-color: #ffffff; padding: 10px; text-align: center;}
-#jogos{margin-top: 40px; margin-bottom: 40px;}
+#toda {width: 98%; margin: 0 auto; padding: 10px;}
 
-header{font-size: 1.7em; font-family: Lato-Bold}
+#jogos1{width: 29%; margin-right: 55%;  margin-top: 2%; left: 3.5%; float: left; position: absolute;}
 
-figure{margin-bottom: 2.5em;}
+#jogos2{width: 29%; margin-left: 34.8%; margin-top: 2%; float: center; position: absolute;}
+
+#jogos3{width: 29%; margin-left: 67%; margin-top: 2%; float: right; position: absolute;}
 
 
-.imagemjogos{width: 60%; webkit-filter:grayscale(100%); box-shadow: 0.9px 0.5px 20px #333; opacity:0.9;}
-.imagemjogos:hover{opacity: 1;}
+header{font-size: 1.3em; font-family: Lato}
+
+.imagemjogos{width: 100%; margin-top: 10%;  webkit-filter:grayscale(100%); box-shadow: 0.9px 0.5px 20px #333; opacity:0.9;}
+.imagemjogos:hover{opacity: 1; box-shadow: 0.9px 0.5px 20px #007fff;}
 
 #game_src{margin: 0 auto; padding: 0;}
 
