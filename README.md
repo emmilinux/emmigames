@@ -2,7 +2,7 @@
 
 
 <p align="center"> 
-<a href="https://github.com/emmilinux/emmigames/blob/add-license-1-1/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"/></a></p>
+<a href="https://github.com/emmilinux/emmigames/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"/></a></p>
 
 # Screen
 ![alt tag](https://github.com/emmilinux/emmigames/blob/master/screen.png)
