@@ -1,29 +1,23 @@
-* {margin: 0; padding: 0;
-}
-
+/*-------Global */
+* {margin: 0; padding: 0;}
 /*-------Fontes externas */
 @font-face {font-family: Lato; src: url('fontes/Lato-Light.ttf');}
 @font-face {font-family: Lato-Bold; src: url('fontes/Lato-Bold.ttf');}
-
-
+/*-------Inicio */
 body{background-color: #ffffff; color: #333; font-family: Lato;}
-
-#toda {width: 98%; margin: 0 auto; padding: 10px;}
-
-#jogos{background-color: #00cccc}
-
-
-#jogos1{width: 29%; margin-right: 55%;  margin-top: 2%; margin-bottom: 2%; left: 3.5%; float: left; position: absolute;}
-
-#jogos2{width: 29%; margin-left: 34.8%; margin-top: 2%; margin-bottom: 2%; float: center; position: absolute;}
-
-#jogos3{width: 29%; margin-left: 67%; margin-top: 2%; margin-bottom: 2%; float: right; position: absolute;}
-
-
 header{font-size: 1.3em; font-family: Lato}
-
+/*-------DIVS */
+#toda {width: 98%; margin: 0 auto; padding: 10px;}
+#jogos{background-color: #00cccc}
+#jogos1{width: 29%; margin-right: 55%;  margin-top: 2%; margin-bottom: 2%; left: 3.5%; float: left; position: absolute;}
+#jogos2{width: 29%; margin-left: 34.8%; margin-top: 2%; margin-bottom: 2%; float: center; position: absolute;}
+#jogos3{width: 29%; margin-left: 67%; margin-top: 2%; margin-bottom: 2%; float: right; position: absolute;}
+#game_src{margin: 0 auto; padding: 0;}
+/*-------Classes */
 .imagemjogos{width: 100%; margin-top: 10%;  webkit-filter:grayscale(100%); box-shadow: 0.9px 0.5px 20px #333; opacity:0.9;}
 .imagemjogos:hover{opacity: 1; box-shadow: 0.9px 0.5px 20px #007fff;}
 
-#game_src{margin: 0 auto; padding: 0;}
+
+
+
 
