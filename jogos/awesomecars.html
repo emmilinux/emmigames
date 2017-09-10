@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Você está jogando Awesome Cars</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/estilojogo.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <!--FAVICONS-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+<a href="../index.html" class="fa fa-arrow-circle-left fa-2x" title="Voltar"></a>
+<div id="jogos">
+    <object type="application/x-shockwave-flash" data="awesomecars.swf" width="100%" height="600" id="game_src" align="center" style="visibility: visible;">
+    <param name="allowScriptAccess" value="never"></object>
+</body>
+
+<script>
+    var obj = document.querySelector("#game_src");
+
+    window.onresize = function() {
+        obj.height = window.innerHeight;
+    }
+</script>
+
+</div>
+</html>
